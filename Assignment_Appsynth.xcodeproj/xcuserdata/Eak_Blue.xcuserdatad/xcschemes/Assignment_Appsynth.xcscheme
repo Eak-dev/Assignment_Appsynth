@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "806D93301ED01A740000D0B0"
+               BuildableName = "Assignment_Appsynth.app"
+               BlueprintName = "Assignment_Appsynth"
+               ReferencedContainer = "container:Assignment_Appsynth.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "806D93441ED01A740000D0B0"
+               BuildableName = "Assignment_AppsynthTests.xctest"
+               BlueprintName = "Assignment_AppsynthTests"
+               ReferencedContainer = "container:Assignment_Appsynth.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "806D934F1ED01A740000D0B0"
+               BuildableName = "Assignment_AppsynthUITests.xctest"
+               BlueprintName = "Assignment_AppsynthUITests"
+               ReferencedContainer = "container:Assignment_Appsynth.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "806D93301ED01A740000D0B0"
+            BuildableName = "Assignment_Appsynth.app"
+            BlueprintName = "Assignment_Appsynth"
+            ReferencedContainer = "container:Assignment_Appsynth.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "806D93301ED01A740000D0B0"
+            BuildableName = "Assignment_Appsynth.app"
+            BlueprintName = "Assignment_Appsynth"
+            ReferencedContainer = "container:Assignment_Appsynth.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "806D93301ED01A740000D0B0"
+            BuildableName = "Assignment_Appsynth.app"
+            BlueprintName = "Assignment_Appsynth"
+            ReferencedContainer = "container:Assignment_Appsynth.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

@@ -8,6 +8,10 @@
 
 import UIKit
 
+//#define kTestUserID     213451
+//#define kTestUserName   "ashfurrow"
+//#define kTestUserEmail  "ash.furrow@gmail.com"
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
@@ -16,7 +20,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        
+        setupPXRequest()
         return true
+    }
+
+    func setupPXRequest() {
+        
+        PXRequest.setConsumerKey("yIIc2cpu1uIwR1lIz3gnP0mTcEO3qKqeNLlDElY2", consumerSecret: "4ATqvXV9ChnuxLKgJU1KnPNAxCmAKyqCbGiRfCOP")
+        
     }
 
     func applicationWillResignActive(_ application: UIApplication) {
