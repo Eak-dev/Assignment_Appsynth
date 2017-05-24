@@ -778,7 +778,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "th.co.smk.smkhealthapp.Assignment-Appsynth";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_OBJC_BRIDGING_HEADER = "/Users/Eak_/Work/Assignment/Appsynth/Assignment_Appsynth/Assignment_Appsynth/Assignment_Appsynth-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "${SRCROOT}/Assignment_Appsynth/Assignment_Appsynth-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -800,7 +800,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "th.co.smk.smkhealthapp.Assignment-Appsynth";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_OBJC_BRIDGING_HEADER = "/Users/Eak_/Work/Assignment/Appsynth/Assignment_Appsynth/Assignment_Appsynth/Assignment_Appsynth-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "${SRCROOT}/Assignment_Appsynth/Assignment_Appsynth-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
